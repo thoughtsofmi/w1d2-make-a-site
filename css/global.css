@@ -9,40 +9,76 @@ header {
      margin: 0px 20px 0px 20px;
      font-family: 'Playball', cursive;
 }
-#align-center{
+h1 {
+    text-align: center;
+    font-size: 100px;
+
+}
+.align-center{
      display: block;
      margin: 0px auto;
      width: 400px;
 }
-.section2{
-     padding: 50px;
+.round {
+     border-radius: 50%;
+}
+#section2{
+     padding: 20px;
      text-align: center;
-
 }
 .about_button {
      width: 250px;
-     background-color: rgb(27, 99, 157);
-     border: 20px solid black;
-     border-top: 5px solid blue;
+     background-color: transparent;
+     border: 20px solid white;
+     text-align: center;
+     margin: 0px 100px 0px 0px
 }
 .about_button:hover {
-     transform: scale(2) rotate(-45deg);
-     border: 2px solid green;
+     transform: scale(1) ;
+     border: 3px solid gray;
+}
 .contact_button {
      width: 250px;
-     background-color: rgb(27, 99, 157);
-     border: 20px solid black;
-     border-top: 5px solid blue;
+     background-color: transparent;;
+     border: 20px solid white;
+     text-align: center;
+     margin: 0px 0px 100px 0px;
 }
 .contact_button:hover {
-     transform: scale(2) rotate(-45deg);
-     border: 2px solid green;
-.card{
-     width: 100px;
-     float: left;
-     border: 1px dotted black;
-     margin: 0px 0px 15px 20px;
+     transform: scale(1);
+     border: 3px solid gray;
 }
-#footer{
-     background-color: gray
+.index_button {
+     width: 250px;
+     background-color: transparent;
+     border: 20px solid white;
+     text-align: center;
+     margin: 0px 100px 0px 0px
+}
+.index_button:hover {
+     transform: scale(1) ;
+     border: 3px solid gray;
+}
+.card{ width: 100px;
+float: left;
+border: 1px dotted black;
+margin: 0px 0px 15px 20px;
+}
+.about_info {
+     background: pink;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+td, th {
+    border:transparent;
+    padding: 0.5rem;
+}
+table {
+    text-align: center;
+}
+.footer{
+     background-color: gray;
+     padding: 30px;
+     text-align: center;
 }
