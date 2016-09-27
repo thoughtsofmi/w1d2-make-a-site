@@ -1,0 +1,48 @@
+body {
+     /*background-color: #DBA8AC;*/
+     background: url(http://www.publicdomainpictures.net/download-picture.php?adresar=120000&soubor=watercolor-floral-paper.jpg&id=119578);
+}
+header {
+     text-align: center;
+     font-size: 150px;
+     background-color: #eba6a9;
+     margin: 0px 20px 0px 20px;
+     font-family: 'Playball', cursive;
+}
+#align-center{
+     display: block;
+     margin: 0px auto;
+     width: 400px;
+}
+.section2{
+     padding: 50px;
+     text-align: center;
+
+}
+.about_button {
+     width: 250px;
+     background-color: rgb(27, 99, 157);
+     border: 20px solid black;
+     border-top: 5px solid blue;
+}
+.about_button:hover {
+     transform: scale(2) rotate(-45deg);
+     border: 2px solid green;
+.contact_button {
+     width: 250px;
+     background-color: rgb(27, 99, 157);
+     border: 20px solid black;
+     border-top: 5px solid blue;
+}
+.contact_button:hover {
+     transform: scale(2) rotate(-45deg);
+     border: 2px solid green;
+.card{
+     width: 100px;
+     float: left;
+     border: 1px dotted black;
+     margin: 0px 0px 15px 20px;
+}
+#footer{
+     background-color: gray
+}
